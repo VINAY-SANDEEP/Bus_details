@@ -25,6 +25,7 @@ const BusRouteList = () => {
   return (
     <div className="supriya">
       {/* Search form */}
+      <marquee>I want to include some data and fixing errors don't be afraid data is under construction</marquee>
       <form onSubmit={handleSearch}>
         <input
           type="text"
