@@ -1,0 +1,115 @@
+/* General reset for consistent styling */
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+/* Styling for the main container */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2554.jpg");
+  color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: 50%;
+  padding: 12px;
+  
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Route details styling */
+.route-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #eeeeee;
+  border-radius: 8px;
+  background-color: #f9fafc;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.route-details div {
+  margin-bottom: 10px;
+}
+
+.route-details strong {
+  color: #007bff;
+}
+
+.route-details:hover {
+  background-color: #eef6ff;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for each detail */
+.route-details div:hover {
+  transform: translateX(10px);
+  transition: transform 0.2s ease;
+}
+
+/* No route found styling */
+p {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Animation for route details */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.priya{
+   background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,248,252,1) 100%);;
+  border: 3px solid black;
+  box-shadow: 8px 8px 8px black;
+  color: white;
+  border-radius: 20px;
+
+}
