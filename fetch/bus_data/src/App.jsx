@@ -9,8 +9,6 @@ const BusRouteList = () => {
   const [directionsResponse, setDirectionsResponse] = useState(null);
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
-
-  // Get user's current location using Geolocation API
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       setCurrentPosition({
@@ -177,7 +175,7 @@ const BusRouteList = () => {
           ) : (
             <p>No matching route found.</p>
           )}
-        {currentPosition && filteredRoute && (
+        {/* {currentPosition && filteredRoute && (
           <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
             <GoogleMap
               center={currentPosition}
@@ -188,12 +186,11 @@ const BusRouteList = () => {
                 <DirectionsRenderer directions={directionsResponse} />
               )}
             </GoogleMap>
-          </LoadScript>
-        )}
+          </LoadScript> 
+        )}*/}
         </div>
       </div>
     </div>
   );
 };
-
 export default BusRouteList;

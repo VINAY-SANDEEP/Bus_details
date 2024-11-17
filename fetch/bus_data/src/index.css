@@ -3,7 +3,6 @@
   margin: 5px;
   padding: 5px;
   box-sizing: border-box;
-
 }
 /* Styling for the main container */
 body {
@@ -150,3 +149,14 @@ marquee{
    display: flex;
  }
 }
+@media (min-width:576px) { /*desktop screen*/
+      button{
+        margin-right: 300px;
+      }
+      marquee{
+        margin: 20px;
+      }
+      .priya{
+          margin: 20px;
+      }
+    }
