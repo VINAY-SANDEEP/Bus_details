@@ -43,6 +43,24 @@ A feature-rich web application for managing and finding bus-related data. Built 
 |-- package.json
 ```
 ## 💻 Setup Instructions
-    ```git clone https://github.com/<your-username>/bus-information-finder.git
-    ```cd bus-information-finder
-    ```npm start
+- **Clone the repository**
+  ```javascript
+  git clone https://github.com/<your-username>/bus-information-finder.git
+
+
+- **Navigate to the project directory:**
+  ```javascript
+  cd bus-information-finder
+
+
+- **npm start**
+  ```javascript
+   npm start
+
+
+---
+
+### Image for the Repository
+
+**Image Description**:  
+A clean and visually appealing graphic showing a web app interface with a bus route search bar, a list of bus details, and UI elements styled with animations. Include gradient backgrounds and hover effects in the design, with a focus on the key features of the application (e.g., adding bus details, searching, interactive elements).
