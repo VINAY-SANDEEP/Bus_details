@@ -41,3 +41,8 @@ A feature-rich web application for managing and finding bus-related data. Built 
     |-- routes/
     |-- server.js
 |-- package.json
+```
+## 💻 Setup Instructions
+    ```git clone https://github.com/<your-username>/bus-information-finder.git
+    ```cd bus-information-finder
+    ```npm start
