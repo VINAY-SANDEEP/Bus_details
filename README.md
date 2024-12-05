@@ -45,12 +45,13 @@ A feature-rich web application for managing and finding bus-related data. Built 
 ## 💻 Setup Instructions
 - **Clone the repository**
   ```javascript
-  git clone https://github.com/<your-username>/bus-information-finder.git
+  git clone https://github.com/VINAY-SANDEEP/Bus_details.git
 
 
 - **Navigate to the project directory:**
   ```javascript
-  cd bus-information-finder
+  cd fetch
+  cd Bus_details
 
 
 - **npm start**
